@@ -1,0 +1,10 @@
+{
+    "code":1,
+    "data":[
+        {"name": "ProductOne", "maxSphere": 12, "minSphere": -4, "maxCylinder": 15,"minCylinder":5},
+        {"name": "ProductTwo", "maxSphere": 10, "minSphere": -1, "maxCylinder": 13,"minCylinder":7},
+        {"name": "ProductThree", "maxSphere": 22, "minSphere": -8, "maxCylinder": 18,"minCylinder":2},
+        {"name": "ProductFour", "maxSphere": 13, "minSphere": -4, "maxCylinder": 16,"minCylinder":5},
+        {"name": "ProductFive", "maxSphere": 8, "minSphere": 2, "maxCylinder": 12,"minCylinder":9}
+    ]
+}
