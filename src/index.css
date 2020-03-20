@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:220px;
+  width:300px;
   padding: 20px;
   border-radius: 10px;
   background: #1b3a4c;
@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:220px;
+  width:300px;
   padding: 20px;
   border-radius: 10px;
   background: #eef0f5;
@@ -80,16 +80,18 @@ body {
 }
 
 .serchResult{
-  margin:30px;
-  padding: 40px;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding: 30px;
   border-radius: 10px;
   background: #1b3a4c;
   box-shadow: inset -9px 9px 18px #173141, 
             inset 9px -9px 18px #1f4357;
 }
 .serchResultLight{
-  margin:30px;
-  padding: 40px;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding: 30px;
   border-radius: 10px;
   background: #eef0f5;
   box-shadow: inset -9px 9px 18px #dddfe4, 

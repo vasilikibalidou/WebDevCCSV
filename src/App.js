@@ -34,12 +34,11 @@ class App extends React.Component {
     darkMode: false,
   }
   componentDidMount=()=>{
-    this.setState({results:result.data})
     console.log(result)
   }
-  filterResults=(inputSphere)=>{
+  findResults=(inputSphere)=>{
     //filter here
-    this.setState({results:result})
+    this.setState({results:result.data})
   }
   onSearch=()=>{
     //make the button trigger the filter function
@@ -62,6 +61,7 @@ class App extends React.Component {
           <InputField
             inputField={inputSphere}
             name="inputSphere"
+            label="Sphere"
             onChange={this.onChange}
           />
           <SearchButton
