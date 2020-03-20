@@ -1,11 +1,26 @@
 import React from 'react';
+import TextField from "@material-ui/core/TextField";
 
 class InputFields extends React.Component{
     render(){
-        var {inputField, onChange, name} = this.props
+        const {inputField, onChange, name, darkMode} = this.props
         return(
-            <div>
-                <input type="number" value={inputField} id={name} onChange={(e)=>onChange(name,e.target.value)}/>
+            <div className={darkMode?'inputWrap':'inputWrapLight'}>
+                <TextField 
+                id={name}
+                type="number"
+                value={inputField}
+                onChange={(e)=>onChange(name,e.target.value)}
+                variant='outlined'
+                label='Product Name'
+                color={darkMode && 'secondary'}
+                inputProps={{
+                    style:{color: darkMode && "#02e2f2"}
+                }}
+                InputLabelProps={{
+                    style:{color: darkMode && "#02e2f2"}
+                }}              
+                />
             </div>
         )
     }
