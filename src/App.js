@@ -33,15 +33,10 @@ class App extends React.Component {
     results:[],
     darkMode: false,
   }
-  componentDidMount=()=>{
-    console.log(result)
-  }
   findResults=(inputSphere)=>{
-    //filter here
     this.setState({results:result.data})
   }
   onSearch=()=>{
-    //make the button trigger the filter function
     console.log("to be done")
   }
   onChange=(key,value)=>{
@@ -84,8 +79,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-//make all results appear in the moment the page opens
-//make the results not filter on every mouseclick but on every button click
-//filter the results based on the input fields
-//add 2 more inputFields, inputCylinder and inputAddition
